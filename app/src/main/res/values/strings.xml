@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">SweetTrack App</string>
+    <string name="your_food">Your Food</string>
+    <string name="take_picture">Take Picture</string>
+    <string name="select_picture">Select Picture</string>
+    <string name="predicted">Enter</string>
+    <string name="home">Home</string>
+    <string name="log">Log</string>
+    <string name="timeline">Timeline</string>
+    <string name="please_select_predict_button_for_showing_your_sugar_and_calories">Please Select Predict Button For Showing Your Sugar and Calories</string>
+    <string name="food_image">Food Image</string>
+    <string name="reselect_retake_food">Save</string>
+    <string name="back_home">Back to Home</string>
+    <string name="sugar_log_description">This is your total sugar and calorie consumption for today</string>
+    <string name="weekly_log_description">This is your total sugar and calorie consumption for this week</string>
+    <string name="monthly_log_description">This is your total sugar and calorie consumption for this month</string>
+    <string name="select_diabetes_type_hint">Select Diabetes Type</string>
+    <string-array name="diabetes_types">
+        <item>Non-Diabetic</item>
+        <item>Type 1 Diabetes</item>
+        <item>Type 2 Diabetes</item>
+    </string-array>
+</resources>
