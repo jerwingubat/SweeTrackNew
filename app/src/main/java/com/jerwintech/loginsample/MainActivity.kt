@@ -1,7 +1,6 @@
-package com.jerwintech.loginsample
+package com.example.sweetrack
 
 import android.Manifest
-import android.content.ContentValues.TAG
 import android.content.Context
 import android.content.Intent
 import android.content.SharedPreferences
@@ -20,7 +19,6 @@ import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.*
-import com.jerwintech.loginsample.MainActivity.Companion.TAG
 import com.jerwintech.loginsample.databinding.ActivityMainBinding
 import java.io.ByteArrayOutputStream
 import java.text.SimpleDateFormat

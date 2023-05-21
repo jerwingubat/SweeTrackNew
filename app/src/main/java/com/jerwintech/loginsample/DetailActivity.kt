@@ -1,4 +1,4 @@
-package com.jerwintech.loginsample
+package com.example.sweetrack
 
 import android.content.ContentValues
 import android.content.Intent
@@ -27,7 +27,6 @@ import org.tensorflow.lite.support.image.ImageProcessor
 import org.tensorflow.lite.support.image.TensorImage
 import org.tensorflow.lite.support.image.ops.ResizeOp
 import org.tensorflow.lite.support.tensorbuffer.TensorBuffer
-import java.text.SimpleDateFormat
 import java.util.*
 import kotlin.collections.ArrayList
 import kotlin.collections.HashMap

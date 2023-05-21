@@ -1,18 +1,14 @@
-package com.jerwintech.loginsample
+package com.example.sweetrack
 
 import android.content.ContentValues
-import android.content.ContentValues.TAG
 import android.content.Intent
 import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.widget.*
-import com.jerwintech.loginsample.databinding.ActivityMainBinding
 import com.github.mikephil.charting.charts.PieChart
 import com.github.mikephil.charting.data.*
-import com.github.mikephil.charting.utils.ColorTemplate
-import com.google.firebase.FirebaseApp
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.DataSnapshot
 import com.google.firebase.database.DatabaseError

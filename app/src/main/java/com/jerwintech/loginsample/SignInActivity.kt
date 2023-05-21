@@ -1,4 +1,4 @@
-package com.jerwintech.loginsample
+package com.example.sweetrack
 import android.content.ContentValues.TAG
 import android.content.Context
 import android.content.Intent

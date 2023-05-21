@@ -1,4 +1,4 @@
-package com.jerwintech.loginsample
+package com.example.sweetrack
 
 data class WeeklyFoods(
     var foodLabel : String? = null,

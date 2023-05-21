@@ -1,6 +1,5 @@
-package com.jerwintech.loginsample
+package com.example.sweetrack
 
-import android.content.ContentValues.TAG
 import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
