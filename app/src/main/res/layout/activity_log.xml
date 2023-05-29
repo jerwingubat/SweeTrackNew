@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/soft_pink"
+    tools:context=".TimelineActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/rubik_medium"
+        android:text="MONITORING"
+        android:textAlignment="center"
+        android:textColor="@color/dark_blue"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/log_scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="520dp"
+        android:layout_marginTop="55dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@color/pink">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id = "@+id/date_today"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/muli"
+                android:layout_gravity="center"
+                android:textColor="@color/dark_blue"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="0dp"
+                android:text="Date Today" />
+
+            <TextView
+                android:id = "@+id/sugar_log_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/muli"
+                android:textColor="@color/dark_blue"
+                android:textSize="13sp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/sugar_log_description" />
+
+            <com.github.mikephil.charting.charts.PieChart
+                android:id="@+id/log_sugar_chart"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="15dp"
+                android:text=""
+                android:visibility="visible" />
+
+            <com.github.mikephil.charting.charts.PieChart
+                android:id="@+id/log_calorie_chart"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:layout_marginStart="175dp"
+                android:layout_marginTop="-181dp"
+                android:text=""
+                android:visibility="visible" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:layout_marginTop="24dp"
+                android:background="@color/dark_blue"/>
+            <TextView
+                android:id = "@+id/weekly_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/muli"
+                android:textColor="@color/dark_blue"
+                android:textSize="13sp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/weekly_log_description" />
+
+            <com.github.mikephil.charting.charts.PieChart
+                android:id="@+id/weekly_sugar_chart"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="15dp"
+                android:text=""
+                android:visibility="visible" />
+            <com.github.mikephil.charting.charts.PieChart
+                android:id="@+id/weekly_calorie_chart"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginStart="197dp"
+                android:layout_marginTop="-151dp"
+                android:text=""
+                android:visibility="visible" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:layout_marginTop="24dp"
+                android:background="@color/dark_blue"/>
+            <TextView
+                android:id = "@+id/monthly_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/muli"
+                android:textColor="@color/dark_blue"
+                android:textSize="13sp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/monthly_log_description" />
+            <com.github.mikephil.charting.charts.PieChart
+                android:id="@+id/monthly_sugar_chart"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="15dp"
+                android:text=""
+                android:visibility="visible" />
+
+            <com.github.mikephil.charting.charts.PieChart
+                android:id="@+id/monthly_calorie_chart"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginStart="197dp"
+                android:layout_marginTop="-151dp"
+                android:text=""
+                android:visibility="visible" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+    <TextView
+        android:id = "@+id/sugar_reminder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="580dp"
+        android:fontFamily="@font/rubik_medium"
+        android:text="Total Sugar:"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/dark_blue"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id = "@+id/calorie_reminder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="605dp"
+        android:fontFamily="@font/rubik_medium"
+        android:text="Total Calories: "
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/dark_blue"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id = "@+id/sugar_intake_warning"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/rubik_medium"
+        android:text=""
+        android:textAlignment="center"
+        android:layout_marginHorizontal="20dp"
+        android:textColor="@color/alert_color"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/calorie_reminder"/>
+    <TextView
+        android:id = "@+id/calorie_intake_warning"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/rubik_medium"
+        android:text=""
+        android:textAlignment="center"
+        android:layout_marginHorizontal="20dp"
+        android:textColor="@color/alert_color"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sugar_intake_warning"/>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

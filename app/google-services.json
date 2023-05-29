@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "831730012448",
+    "firebase_url": "https://sweettrack-8f7e6-default-rtdb.firebaseio.com",
+    "project_id": "sweettrack-8f7e6",
+    "storage_bucket": "sweettrack-8f7e6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:831730012448:android:0fb99309712b2cec4d4745",
+        "android_client_info": {
+          "package_name": "com.jerwintech.loginsample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "831730012448-rrgg5p308qcfcq81rae95v2tudl052sq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFfKWvJ-j_1jcq_sVD8Wy75txTHJiajwU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "831730012448-rrgg5p308qcfcq81rae95v2tudl052sq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
